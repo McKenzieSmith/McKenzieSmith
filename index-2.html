@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>McKenzie Smith Voice Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #222;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ffffffee;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      font-weight: 600;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      color: #222;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+    }
+    header {
+      background-color: #f8f8f8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 8rem 2rem 4rem;
+    }
+    header img.logo {
+      max-width: 180px;
+      margin-bottom: 1.5rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin: 0.5rem 0;
+    }
+    header p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+    header img.hero {
+      max-width: 350px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section h2 {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      background-color: #f0f0f0;
+      color: #777;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: #222;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#studio">Voice Studio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header id="home">
+    <img class="logo" src="https://drive.google.com/uc?export=view&id=1mP3YmFf7zoQFXAlLEr_aTk_0zJfCnpfJ" alt="McKenzie Smith Voice Studio Logo" />
+    <h1>McKenzie Smith Voice Studio</h1>
+    <p>Empowering singers through healthy technique and joyful expression</p>
+    <img class="hero" src="https://drive.google.com/uc?export=view&id=1Ca_008wOX8CCj4In7Dk6bQFOg5s5l8wV" alt="Photo of McKenzie Smith" />
+  </header>
+
+  <section id="intro">
+    <h2>Welcome</h2>
+    <p>
+      Welcome to McKenzie Smith Voice Studio. Rooted in vocal wellness, artistic expression, and lifelong learning,
+      my studio is a space where singers of all backgrounds can discover their most free, healthy, and expressive voice.
+      Whether you're preparing for an audition, exploring your sound for the first time, or looking to deepen your technique,
+      you’ll receive personalized instruction grounded in vocal anatomy, functional voice science, and joyful music-making.
+      Let’s build a voice that feels as good as it sounds.
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm McKenzie Smith — a voice teacher, choral conductor, and lifelong student of vocal health and artistry.
+      My background includes classical training, choral directing, and a deep curiosity for how the voice works.
+      I specialize in helping singers of all levels understand their instruments through functional technique,
+      body awareness, and expressive freedom.
+    </p>
+    <p>
+      With a holistic approach and experience in both performance and education, I guide students toward confident,
+      sustainable singing — whether they're preparing for the stage or singing just for joy.
+    </p>
+  </section>
+
+  <section id="studio">
+    <h2>Voice Studio</h2>
+    <p>
+      Lessons are tailored to each student's goals, vocal background, and learning style. I work with:
+    </p>
+    <ul>
+      <li>Beginner to advanced classical and contemporary singers</li>
+      <li>Audition and performance preparation</li>
+      <li>Functional vocal anatomy and technique</li>
+      <li>Choral singers looking to build solo skills</li>
+    </ul>
+    <p>
+      Weekly private lessons are available in-person and online. Contact me for current rates and availability.
+    </p>
+    <p>
+      My teaching combines technique, vocal health, artistic exploration, and goal-oriented structure to support each student's growth.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to inquire about lessons or learn more about the studio, please reach out via email or the form below.</p>
+    <p>Email: <a href="mailto:mckenzie@voicestudio.com">mckenzie@voicestudio.com</a></p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 McKenzie Smith Voice Studio. All rights reserved.
+  </footer>
+</body>
+</html>
